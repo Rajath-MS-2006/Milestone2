@@ -1,0 +1,11 @@
+# Core libraries
+pandas
+requests
+python-dotenv
+
+# Reddit API
+praw
+
+# Google Gemini AI
+google-generativeai
+
