@@ -21,15 +21,18 @@ Component	Technology
 Language	Python 3.12+
 APIs	Google Gemini AI, NewsAPI, Reddit (PRAW), Slack Webhook
 Libraries	pandas, requests, google-generativeai, praw, python-dotenv, matplotlib, seaborn
-🧩 Project Pipeline
-┌──────────────────────────┐
-│ 1️⃣ milestone_2.py        │ → Fetch Reddit + News data, analyze sentiment, send Slack alerts
-└─────────────┬────────────┘
-              │
-              ▼
-┌──────────────────────────┐
-│ 2️⃣ sentiment_distribution.py │ → Visualize sentiment by platform
-└──────────────────────────┘
+## 🧩 Project Pipeline
+
+```text
+┌──────────────────────────────┐
+│ 1️⃣ milestone_2.py           │ → Fetch Reddit + News, analyze sentiment, send Slack alerts
+└───────────────┬─────────────┘
+                │
+                ▼
+┌────────────────────────────────┐
+│ 2️⃣ sentiment_distribution.py  │ → Visualize sentiment by platform
+└────────────────────────────────┘
+```
 
 📁 File Descriptions
 🧠 milestone_2.py
@@ -48,7 +51,8 @@ Reads analyzed data (analyzed_ai_market_data.csv)
 
 Visualizes sentiment distribution by platform using Seaborn + Matplotlib
 
-📂 Folder Structure
+## 📂 Folder Structure
+```text
 📦 AI-Powered-Strategic-Intelligence/
 │
 ├── 📁 scripts/
@@ -62,6 +66,7 @@ Visualizes sentiment distribution by platform using Seaborn + Matplotlib
 ├── .env
 ├── requirements.txt
 ├── README.md
+```
 
 🔑 Environment Variables (.env)
 # Google Gemini
